@@ -26,7 +26,7 @@ export const NavigationNode = ({
   return (
     <div
       className={cn(
-        "group relative flex h-full w-full flex-col items-center justify-center pointer-events-none transition-all duration-300 will-change-transform will-change-shadow",
+        "group relative flex h-full w-full flex-col items-center justify-center cursor-pointer transition-all duration-300 will-change-transform will-change-shadow",
         // Radial glow overlay on hover
         "after:absolute after:inset-0 after:content-[''] after:z-0 after:opacity-0 after:transition-opacity after:duration-300 after:bg-[radial-gradient(ellipse_at_center,hsl(var(--nav-glow)/0.50)_0%,transparent_70%)] hover:after:opacity-100",
         positionStyles[position],
