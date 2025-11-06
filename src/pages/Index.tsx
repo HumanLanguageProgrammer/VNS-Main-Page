@@ -48,7 +48,6 @@ const Index = () => {
             {/* NW Quadrant */}
             <div className="h-full w-full animate-fade-in" style={{ animationDelay: "0.3s" }}>
               <NavigationNode
-                to="/services"
                 position="nw"
                 primaryText="Services"
                 supportingText="What We Offer"
@@ -58,7 +57,6 @@ const Index = () => {
             {/* NE Quadrant */}
             <div className="h-full w-full animate-fade-in" style={{ animationDelay: "0.4s" }}>
               <NavigationNode
-                to="/about"
                 position="ne"
                 primaryText="About Us"
                 supportingText="Our Story"
@@ -68,7 +66,6 @@ const Index = () => {
             {/* SW Quadrant */}
             <div className="h-full w-full animate-fade-in" style={{ animationDelay: "0.5s" }}>
               <NavigationNode
-                to="/resources"
                 position="sw"
                 primaryText="Resources"
                 supportingText="Learn & Grow"
@@ -78,7 +75,6 @@ const Index = () => {
             {/* SE Quadrant */}
             <div className="h-full w-full animate-fade-in" style={{ animationDelay: "0.6s" }}>
               <NavigationNode
-                to="/contact"
                 position="se"
                 primaryText="Contact"
                 supportingText="Get In Touch"
@@ -90,7 +86,6 @@ const Index = () => {
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" style={{ zIndex: 3 }}>
             <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <NavigationNode
-                to="/center"
                 position="center"
                 primaryText="Welcome Hub"
                 supportingText="Start Here"
