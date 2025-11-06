@@ -7,10 +7,10 @@ const Index = () => {
       <header className="border-b border-border py-4 px-8 animate-fade-in flex-shrink-0">
         <div className="text-center">
           <h1 className="text-3xl font-bold text-foreground mb-1">
-            ContextCraft AI
+            Visitor Navigation System
           </h1>
           <p className="text-sm text-muted-foreground italic">
-            Building Context Engineering Capabilities
+            Return to Arrival Hall
           </p>
         </div>
       </header>
@@ -49,8 +49,8 @@ const Index = () => {
             <div className="h-full w-full animate-fade-in" style={{ animationDelay: "0.3s" }}>
               <NavigationNode
                 position="nw"
-                primaryText="Services"
-                supportingText="What We Offer"
+                primaryText="Librarian"
+                supportingText="Learn with a"
               />
             </div>
 
@@ -58,8 +58,8 @@ const Index = () => {
             <div className="h-full w-full animate-fade-in" style={{ animationDelay: "0.4s" }}>
               <NavigationNode
                 position="ne"
-                primaryText="About Us"
-                supportingText="Our Story"
+                primaryText="Architect"
+                supportingText="Work with an"
               />
             </div>
 
@@ -67,8 +67,8 @@ const Index = () => {
             <div className="h-full w-full animate-fade-in" style={{ animationDelay: "0.5s" }}>
               <NavigationNode
                 position="sw"
-                primaryText="Resources"
-                supportingText="Learn & Grow"
+                primaryText="Philosopher"
+                supportingText="Speak with a"
               />
             </div>
 
@@ -76,8 +76,8 @@ const Index = () => {
             <div className="h-full w-full animate-fade-in" style={{ animationDelay: "0.6s" }}>
               <NavigationNode
                 position="se"
-                primaryText="Contact"
-                supportingText="Get In Touch"
+                primaryText="Navigator"
+                supportingText="Strategize with a"
               />
             </div>
           </div>
@@ -87,8 +87,8 @@ const Index = () => {
             <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <NavigationNode
                 position="center"
-                primaryText="Welcome Hub"
-                supportingText="Start Here"
+                primaryText="Explore"
+                supportingText="Take time to"
               />
             </div>
           </div>
@@ -99,10 +99,10 @@ const Index = () => {
       <footer className="border-t border-border py-3 px-8 animate-fade-in flex-shrink-0">
         <div className="text-center">
           <p className="text-sm text-muted-foreground mb-1">
-            © 2025 ContextCraft AI - Empowering Organizations Through Context Engineering
+            ContextCraft AI
           </p>
           <p className="text-xs text-muted-foreground/70">
-            Building the future of AI-enhanced workflows
+            Applied AI in Action
           </p>
         </div>
       </footer>
