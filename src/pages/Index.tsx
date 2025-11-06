@@ -9,7 +9,7 @@ const Index = () => {
           <h1 className="text-2xl font-bold text-foreground mb-1">
             Visitor Navigation System
           </h1>
-          <p className="text-sm text-muted-foreground italic">
+          <p className="text-sm text-muted-foreground italic cursor-pointer hover:text-primary transition-colors">
             Return to Arrival Hall
           </p>
         </div>
