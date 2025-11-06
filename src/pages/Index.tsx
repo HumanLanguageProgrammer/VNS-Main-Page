@@ -9,7 +9,7 @@ const Index = () => {
           <h1 className="text-2xl font-bold text-foreground mb-1">
             Visitor Navigation System
           </h1>
-          <p className="text-sm text-muted-foreground italic cursor-pointer hover:text-primary transition-all hover:drop-shadow-[0_0_12px_hsl(var(--nav-glow)/0.6)]">
+          <p className="text-sm text-muted-foreground italic cursor-pointer hover:text-primary transition-all inline-block hover:shadow-[0_0_20px_hsl(var(--nav-glow)/0.5)]">
             Return to Arrival Hall
           </p>
         </div>
