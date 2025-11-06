@@ -33,7 +33,7 @@ export const NavigationNode = ({
         className
       )}
     >
-      <span className="relative z-10 text-xs text-muted-foreground mb-1 opacity-70 group-hover:opacity-100 transition-opacity">
+      <span className="relative z-10 text-sm text-muted-foreground mb-1 opacity-70 group-hover:opacity-100 transition-opacity">
         {supportingText}
       </span>
       <span className="relative z-10 text-2xl font-bold text-foreground group-hover:text-primary transition-colors">

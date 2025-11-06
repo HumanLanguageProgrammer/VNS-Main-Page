@@ -6,7 +6,7 @@ const Index = () => {
       {/* Header */}
       <header className="border-b border-border py-4 px-8 animate-fade-in flex-shrink-0">
         <div className="text-center">
-          <h1 className="text-3xl font-bold text-foreground mb-1">
+          <h1 className="text-2xl font-bold text-foreground mb-1">
             Visitor Navigation System
           </h1>
           <p className="text-sm text-muted-foreground italic">
@@ -98,10 +98,10 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t border-border py-3 px-8 animate-fade-in flex-shrink-0">
         <div className="text-center">
-          <p className="text-sm text-muted-foreground mb-1">
+          <p className="text-2xl font-bold text-foreground mb-1">
             ContextCraft AI
           </p>
-          <p className="text-xs text-muted-foreground/70">
+          <p className="text-sm text-muted-foreground">
             Applied AI in Action
           </p>
         </div>
